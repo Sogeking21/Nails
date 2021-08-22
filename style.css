@@ -1,0 +1,120 @@
+.header{
+  background: #BF0436;
+}
+.header h1{
+  color: #fff;
+}
+#intro{
+  height: 800px;
+  background-image: url(baby/png/background.png);
+  background-position: center;
+  background-size: cover;
+  
+}
+#text-intro{
+padding: 240px 0px 240px 0px;
+}
+#vidro{
+  height: 200px;
+  padding-top: 80px;
+}
+#manutencao{
+  height: 200px;
+  padding-top: 80px;
+}
+#gel{
+  height: 200px;
+  padding-top: 80px;
+}
+img{
+  max-height: 1000px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* servicos*/
+
+.bg-servicos{
+  background: #BF0436;
+}
+
+.cards-list {
+  z-index: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.card .card_image {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+}
+
+.card .card_image img {
+  width: inherit;
+  height: inherit;
+  border-radius: 40px;
+  object-fit: cover;
+}
+
+.card .card_title {
+  text-align: center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: -80px;
+  height: 40px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.title-white {
+  color: white;
+}
+
+.title-black {
+  color: black;
+}
+
+@media all and (max-width: 500px) {
+  .card-list {
+    /* On small screens, we are no longer using row direction but column */
+    flex-direction: column;
+  }
+}
+
+
+
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  background: #D90479;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+}
+
+/* footer */
+.bg-footer{
+  background: #BF0436;
+  font-size: 1.5em;
+  color: #fff;
+}
