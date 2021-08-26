@@ -32,6 +32,21 @@ img{
   margin: 0 auto;
 }
 
+.servicos-btn{
+  width: 200px;
+  height: 70px;
+  border-color: #e33f5f;
+  background: #fff;
+  color: #BF0436;
+}
+
+.servicos-btn:hover{
+  
+  border-color: #000;
+  background: #D90479;
+  color: #fff;
+}
+
 /* servicos*/
 
 .bg-servicos{
@@ -161,4 +176,29 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   background: #BF0436;
   font-size: 1.5em;
   color: #fff;
+}
+
+/* bootstrap*/
+
+.display-4:after{
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #000;
+  margin: 16px auto ;
+
+}
+
+.display-4-white:after{
+content: "";
+display: block;
+width: 120px;
+height: 3px;
+background: #fff;
+margin: 16px auto ;
+}
+
+.carousel .slide img{
+  border-radius: 50%;
 }
