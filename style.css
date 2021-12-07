@@ -1,5 +1,9 @@
+:root {
+  --cor-principal: #BF0436; /* define a cor principal*/
+}
+
 .header{
-  background: #BF0436;
+  background: var( --cor-principal);
 }
 .header h1{
   color: #fff;
@@ -14,7 +18,7 @@
 #intro h1{
   font-weight: bold;
   text-shadow: 1px 3px 1px rgba(0, 0, 0, 1);
-  color: #BF0436;
+  color:  var( --cor-principal);
 }
 #intro p{
   font-weight: bold;
@@ -46,7 +50,7 @@ img{
   height: 70px;
   border-color: #e33f5f;
   background: #fff;
-  color: #BF0436;
+  color: var( --cor-principal);
 }
 
 .servicos-btn:hover{
@@ -59,7 +63,7 @@ img{
 /* servicos*/
 
 .bg-servicos{
-  background: #BF0436;
+  background: var( --cor-principal);
 }
 
 .cards-list {
@@ -190,7 +194,7 @@ footer{
   margin-top: 62px;
 }
 .bg-footer{
-  background: #BF0436;
+  background: var( --cor-principal);
   font-size: 1.5em;
   color: #fff;
 }
